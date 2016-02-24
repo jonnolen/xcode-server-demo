@@ -118,6 +118,7 @@
 				FCE65CD01C7CDE18002343E9 /* Frameworks */,
 				FCE65CD11C7CDE18002343E9 /* Resources */,
 				FCC3B4F81C7E417200070364 /* ShellScript */,
+				FCC3B4FD1C7E68E500070364 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -207,7 +208,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		FCC3B4F81C7E417200070364 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -217,6 +218,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "./Fabric.framework/run 90d6f2056ff56cf82dd58b42c220452ec09fbed4 f917a68b228bb5633ceec60d9b95ccae010558c8b4561a26a64f1814d1718fe6";
+			showEnvVarsInLog = 0;
+		};
+		FCC3B4FD1C7E68E500070364 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "echo \"IS THIS A POST ARCHIVE SCRIPT?\"";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

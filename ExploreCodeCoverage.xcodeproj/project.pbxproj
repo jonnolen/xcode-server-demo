@@ -13,6 +13,7 @@
 		FCE65CDE1C7CDE18002343E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE65CDD1C7CDE18002343E9 /* Assets.xcassets */; };
 		FCE65CE11C7CDE18002343E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE65CDF1C7CDE18002343E9 /* LaunchScreen.storyboard */; };
 		FCE65CEC1C7CDE18002343E9 /* ExploreCodeCoverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE65CEB1C7CDE18002343E9 /* ExploreCodeCoverageTests.swift */; };
+		FCE65CF71C7CDE29002343E9 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE65CF61C7CDE29002343E9 /* MyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FCE65CE71C7CDE18002343E9 /* ExploreCodeCoverageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreCodeCoverageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE65CEB1C7CDE18002343E9 /* ExploreCodeCoverageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCodeCoverageTests.swift; sourceTree = "<group>"; };
 		FCE65CED1C7CDE18002343E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE65CF61C7CDE29002343E9 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				FCE65CDD1C7CDE18002343E9 /* Assets.xcassets */,
 				FCE65CDF1C7CDE18002343E9 /* LaunchScreen.storyboard */,
 				FCE65CE21C7CDE18002343E9 /* Info.plist */,
+				FCE65CF61C7CDE29002343E9 /* MyClass.swift */,
 			);
 			path = ExploreCodeCoverage;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				FCE65CD91C7CDE18002343E9 /* ViewController.swift in Sources */,
 				FCE65CD71C7CDE18002343E9 /* AppDelegate.swift in Sources */,
+				FCE65CF71C7CDE29002343E9 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

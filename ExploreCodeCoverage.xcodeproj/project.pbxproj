@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCC3B4FB1C7E41A100070364 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC3B4F91C7E41A100070364 /* Fabric.framework */; };
+		FCC3B4FC1C7E41A100070364 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC3B4FA1C7E41A100070364 /* Crashlytics.framework */; };
 		FCE65CD71C7CDE18002343E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE65CD61C7CDE18002343E9 /* AppDelegate.swift */; };
 		FCE65CD91C7CDE18002343E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE65CD81C7CDE18002343E9 /* ViewController.swift */; };
 		FCE65CDC1C7CDE18002343E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE65CDA1C7CDE18002343E9 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FCC3B4F91C7E41A100070364 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		FCC3B4FA1C7E41A100070364 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		FCE65CD31C7CDE18002343E9 /* ExploreCodeCoverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploreCodeCoverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE65CD61C7CDE18002343E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCE65CD81C7CDE18002343E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC3B4FC1C7E41A100070364 /* Crashlytics.framework in Frameworks */,
+				FCC3B4FB1C7E41A100070364 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +85,8 @@
 		FCE65CD51C7CDE18002343E9 /* ExploreCodeCoverage */ = {
 			isa = PBXGroup;
 			children = (
+				FCC3B4F91C7E41A100070364 /* Fabric.framework */,
+				FCC3B4FA1C7E41A100070364 /* Crashlytics.framework */,
 				FCE65CD61C7CDE18002343E9 /* AppDelegate.swift */,
 				FCE65CD81C7CDE18002343E9 /* ViewController.swift */,
 				FCE65CDA1C7CDE18002343E9 /* Main.storyboard */,
@@ -109,6 +117,7 @@
 				FCE65CCF1C7CDE18002343E9 /* Sources */,
 				FCE65CD01C7CDE18002343E9 /* Frameworks */,
 				FCE65CD11C7CDE18002343E9 /* Resources */,
+				FCC3B4F81C7E417200070364 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -194,6 +203,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FCC3B4F81C7E417200070364 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 90d6f2056ff56cf82dd58b42c220452ec09fbed4 f917a68b228bb5633ceec60d9b95ccae010558c8b4561a26a64f1814d1718fe6";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FCE65CCF1C7CDE18002343E9 /* Sources */ = {
@@ -331,6 +356,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ExploreCodeCoverage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.developertown.ExploreCodeCoverage;
@@ -342,6 +371,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ExploreCodeCoverage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.developertown.ExploreCodeCoverage;
@@ -392,6 +425,7 @@
 				FCE65CF21C7CDE18002343E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCE65CF31C7CDE18002343E9 /* Build configuration list for PBXNativeTarget "ExploreCodeCoverageTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +434,7 @@
 				FCE65CF51C7CDE18002343E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

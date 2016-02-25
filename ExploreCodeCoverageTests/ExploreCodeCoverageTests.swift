@@ -27,4 +27,8 @@ class ExploreCodeCoverageTests: XCTestCase {
         XCTAssertEqual(underTest.greeting("bob"), "Hello bob");
     }
     
+    func test2(){
+        let underTest = MyClass()
+        underTest.salutation()
+    }
 }

@@ -398,7 +398,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonnolen.explorecodecoverage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b87e5e82-55bd-47d5-af87-9b6b70058bed";
 			};
 			name = Release;
 		};

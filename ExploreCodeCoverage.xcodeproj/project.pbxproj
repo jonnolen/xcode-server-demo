@@ -159,6 +159,7 @@
 				TargetAttributes = {
 					FCE65CD21C7CDE18002343E9 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = K5EKB9CV9D;
 					};
 					FCE65CE61C7CDE18002343E9 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -217,7 +218,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run 90d6f2056ff56cf82dd58b42c220452ec09fbed4 f917a68b228bb5633ceec60d9b95ccae010558c8b4561a26a64f1814d1718fe6";
+			shellScript = "./Fabric.framework/run 90d6f2056ff56cf82dd58b42c220452ec09fbed4 f917a68b228bb5633ceec60d9b95ccae010558c8b4561a26a64f1814d1718fe6\n\necho \"RAN FABRIC RUN\\!\"";
 			showEnvVarsInLog = 0;
 		};
 		FCC3B4FD1C7E68E500070364 /* ShellScript */ = {
@@ -372,13 +373,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ExploreCodeCoverage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.developertown.ExploreCodeCoverage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonnolen.explorecodecoverage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -387,14 +389,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ExploreCodeCoverage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.developertown.ExploreCodeCoverage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonnolen.explorecodecoverage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b87e5e82-55bd-47d5-af87-9b6b70058bed";
 			};
 			name = Release;
 		};

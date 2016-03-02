@@ -18,6 +18,7 @@
 		FCE65CEC1C7CDE18002343E9 /* ExploreCodeCoverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE65CEB1C7CDE18002343E9 /* ExploreCodeCoverageTests.swift */; };
 		FCE65CF71C7CDE29002343E9 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE65CF61C7CDE29002343E9 /* MyClass.swift */; };
 		FCFBE6411C866F0B00AA1376 /* MyKeyboardAwareScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE465601C8656A70096A674 /* MyKeyboardAwareScrollViewController.swift */; };
+		FCFBE6431C87444D00AA1376 /* MyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFBE6421C87444D00AA1376 /* MyContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		FCE65CEB1C7CDE18002343E9 /* ExploreCodeCoverageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCodeCoverageTests.swift; sourceTree = "<group>"; };
 		FCE65CED1C7CDE18002343E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCE65CF61C7CDE29002343E9 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		FCFBE6421C87444D00AA1376 /* MyContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				FCE65CF61C7CDE29002343E9 /* MyClass.swift */,
 				FC0AFF601C80ABB100715143 /* KeyboardAwareScrollViewController.swift */,
 				FCE465601C8656A70096A674 /* MyKeyboardAwareScrollViewController.swift */,
+				FCFBE6421C87444D00AA1376 /* MyContentView.swift */,
 			);
 			path = ExploreCodeCoverage;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFBE6431C87444D00AA1376 /* MyContentView.swift in Sources */,
 				FCFBE6411C866F0B00AA1376 /* MyKeyboardAwareScrollViewController.swift in Sources */,
 				FCE65CD91C7CDE18002343E9 /* ViewController.swift in Sources */,
 				FC0AFF611C80ABB100715143 /* KeyboardAwareScrollViewController.swift in Sources */,

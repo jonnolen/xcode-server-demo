@@ -232,7 +232,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "echo \"IS THIS A POST ARCHIVE SCRIPT?\"";
+			shellScript = "${SOURCE_ROOT}/Crashlytics.framework/submit 90d6f2056ff56cf82dd58b42c220452ec09fbed4 f917a68b228bb5633ceec60d9b95ccae010558c8b4561a26a64f1814d1718fe6 ﻿";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

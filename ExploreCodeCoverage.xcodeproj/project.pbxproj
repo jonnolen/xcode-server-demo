@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC0AFF611C80ABB100715143 /* KeyboardAwareScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0AFF601C80ABB100715143 /* KeyboardAwareScrollViewController.swift */; };
 		FCC3B4FB1C7E41A100070364 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC3B4F91C7E41A100070364 /* Fabric.framework */; };
 		FCC3B4FC1C7E41A100070364 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC3B4FA1C7E41A100070364 /* Crashlytics.framework */; };
 		FCE65CD71C7CDE18002343E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE65CD61C7CDE18002343E9 /* AppDelegate.swift */; };
@@ -16,6 +17,7 @@
 		FCE65CE11C7CDE18002343E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE65CDF1C7CDE18002343E9 /* LaunchScreen.storyboard */; };
 		FCE65CEC1C7CDE18002343E9 /* ExploreCodeCoverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE65CEB1C7CDE18002343E9 /* ExploreCodeCoverageTests.swift */; };
 		FCE65CF71C7CDE29002343E9 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE65CF61C7CDE29002343E9 /* MyClass.swift */; };
+		FCFBE6411C866F0B00AA1376 /* MyKeyboardAwareScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE465601C8656A70096A674 /* MyKeyboardAwareScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC0AFF601C80ABB100715143 /* KeyboardAwareScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardAwareScrollViewController.swift; sourceTree = "<group>"; };
 		FCC3B4F91C7E41A100070364 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
 		FCC3B4FA1C7E41A100070364 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		FCE465601C8656A70096A674 /* MyKeyboardAwareScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyKeyboardAwareScrollViewController.swift; sourceTree = "<group>"; };
 		FCE65CD31C7CDE18002343E9 /* ExploreCodeCoverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploreCodeCoverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE65CD61C7CDE18002343E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCE65CD81C7CDE18002343E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 				FCE65CDF1C7CDE18002343E9 /* LaunchScreen.storyboard */,
 				FCE65CE21C7CDE18002343E9 /* Info.plist */,
 				FCE65CF61C7CDE29002343E9 /* MyClass.swift */,
+				FC0AFF601C80ABB100715143 /* KeyboardAwareScrollViewController.swift */,
+				FCE465601C8656A70096A674 /* MyKeyboardAwareScrollViewController.swift */,
 			);
 			path = ExploreCodeCoverage;
 			sourceTree = "<group>";
@@ -242,7 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFBE6411C866F0B00AA1376 /* MyKeyboardAwareScrollViewController.swift in Sources */,
 				FCE65CD91C7CDE18002343E9 /* ViewController.swift in Sources */,
+				FC0AFF611C80ABB100715143 /* KeyboardAwareScrollViewController.swift in Sources */,
 				FCE65CD71C7CDE18002343E9 /* AppDelegate.swift in Sources */,
 				FCE65CF71C7CDE29002343E9 /* MyClass.swift in Sources */,
 			);
